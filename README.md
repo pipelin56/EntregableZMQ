@@ -52,7 +52,7 @@ Para instalarlo:
 
 
 Para usar el proyecto, primero se deberá tener una imagen a la que aplicar los filtros.
-Lo primero será ejecutar _img_worker.py_ y posteriormente _img_ventilator.py_,. Esto lo haremos ejecutando los siguientes comandos:
+Lo primero será ejecutar _img_worker.py_ y posteriormente _img_ventilator.py_. Esto lo haremos ejecutando los siguientes comandos:
 > python img_worker.py
 
 > python img_ventilator.py
