@@ -51,4 +51,17 @@ Para instalarlo:
 
 
 
-Para usar el proyecto, primero se deberá tener una imagen a la que aplicar los filtros, y al ejecutar el ventilator, pedirá la ruta de la imagen. La imagen con los diferentes filtros se guardará en la carpeta del proyecto. Ahora nos vamos a la terminal donde tengamos abierto el img_sink.py, nos mostrará 3 puntos, el primero nos dirá que accedamos a un enlace, al acceder a el nos mostrará una pagina donde nos pedirá autorización para usar nuestro dropbox, le damos a 'Permitir' y nos mostrará un código el cual debemos copiar y pegar en la terminal donde tengamos img_sink.py ejecutandose. Una vez hecho esto, entramos en nuestro dropbox, y en la carpeta fotosFiltro tendremos nuestras cinco fotos con sus respectivos filtros aplicados.
+Para usar el proyecto, primero se deberá tener una imagen a la que aplicar los filtros.
+Lo primero será ejecutar _img_worker.py_ y posteriormente _img_ventilator.py_,. Esto lo haremos ejecutando los siguientes comandos:
+> python img_worker.py
+
+> python img_ventilator.py
+
+Al ejecutar img_ventilator pedirá la ruta de la imagen las imágenes con los diferentes filtros se guardarán en la carpeta del proyecto.
+
+Ahora ejecutamos el img_sink.py:
+> python img_sink.py
+
+nos mostrará 3 puntos indicándonos los pasos para subir las fotos a tu cuenta Dropbox. Para ello se indica acceder a un enlace, en el cual nos mostrará una pagina donde nos pedirá autorización para que está aplicación python pueda hacer uso de tu dropbox. Damos a 'Permitir' y nos mostrará un código el cual debemos copiar y pegar en la terminal donde tengamos _img_sink.py_ ejecutandose. 
+
+Una vez hecho esto, entramos en nuestro dropbox, y en la carpeta _fotosFiltro_ tendremos nuestras cinco fotos con sus respectivos filtros aplicados.
