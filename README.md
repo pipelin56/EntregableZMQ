@@ -62,6 +62,6 @@ Al ejecutar img_ventilator pedirá la ruta de la imagen las imágenes con los di
 Ahora ejecutamos el img_sink.py:
 > python img_sink.py
 
-nos mostrará 3 puntos indicándonos los pasos para subir las fotos a tu cuenta Dropbox. Para ello se indica acceder a un enlace, en el cual nos mostrará una pagina donde nos pedirá autorización para que está aplicación python pueda hacer uso de tu dropbox. Damos a 'Permitir' y nos mostrará un código el cual debemos copiar y pegar en la terminal donde tengamos _img_sink.py_ ejecutandose. 
+Nos mostrará 3 puntos indicándonos los pasos para subir las fotos a tu cuenta Dropbox. Para ello se indica acceder a un enlace, en el cual nos mostrará una pagina donde nos pedirá autorización para que está aplicación python pueda hacer uso de tu dropbox. Damos a 'Permitir' y nos mostrará un código el cual debemos copiar y pegar en la terminal donde tengamos _img_sink.py_ ejecutandose. 
 
 Una vez hecho esto, entramos en nuestro dropbox, y en la carpeta _fotosFiltro_ tendremos nuestras cinco fotos con sus respectivos filtros aplicados.
