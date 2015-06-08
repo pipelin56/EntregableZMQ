@@ -26,11 +26,17 @@ Los filtros que se aplican a las imagenes son:
 ##3. Requisitos
 
 + Tener instalado Python
+
 > sudo aptitude install python
+
 + Tener instalado pip
+
 > sudo apt-get install python-pip
+
 + Tener instalado la librerias de Dropbox
+
 > sudo pip install dropbox
+
 + Disponer de un programa para previsualizar las imagenes tras aplicar los filtros; en nuestro programa se hace uso del método _show_ de la clase _Image_ pertenecientes al paquete importado _PIL_. Para visualizar estas imagenes haremos uso del programa 'xloadimage'.
 Para instalarlo:
 >sudo apt-get install xloadimage
